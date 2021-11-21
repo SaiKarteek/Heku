@@ -1,5 +1,6 @@
-nltk.download()
+
 import nltk
+nltk.download('wordnet')
 import warnings
 warnings.filterwarnings("ignore")
 from flask import Flask , render_template , request
